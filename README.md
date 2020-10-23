@@ -6,11 +6,11 @@ API para consulta do último valor da cotação de um ativo
  
   Instale os pacotes a seguir:
   
-	pip install flask flask-jsonpify flask-restful requests yahoo_fin lxml pandas
+	pip install flask flask-restful requests yahoo_fin lxml pandas
 
   Execute o server:
   
-  	python server.py
+  	python wsgi.py
   	
 ## Exemplo de utilização da API
 
