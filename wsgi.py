@@ -1,4 +1,4 @@
-from app.main import app as server
+from app.main import app
   
 if __name__ == "__main__": 
-        server.run(port='5002') 
+        app.run(port='5002') 
